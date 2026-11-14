@@ -1,0 +1,18 @@
+{
+	"name": "big-gulp-reads",
+	"version": "1.0.1",
+	"description": "Override pi's built-in read tool with a larger, configurable truncation limit",
+	"keywords": ["pi-package"],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/taylorsatula/big-gulp-reads.git"
+	},
+	"files": ["extensions", "README.md", "CHANGELOG.md"],
+	"pi": {
+		"extensions": ["./extensions/big-read.ts"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	}
+}
