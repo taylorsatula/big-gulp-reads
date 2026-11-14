@@ -1,6 +1,6 @@
 {
 	"name": "big-gulp-reads",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Override pi's built-in read tool with a larger, configurable truncation limit",
 	"keywords": ["pi-package"],
 	"license": "MIT",
